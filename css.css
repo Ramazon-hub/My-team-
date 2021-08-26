@@ -1,0 +1,31 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-family: cursive;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1140px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    background-color: tomato;
+    padding:20px;
+    font-size: 50px;
+}
+.wrapper__text{
+    font-size: .5em;
+    background-color: gold;
+    width: 15em;
+    color: #fff;
+}

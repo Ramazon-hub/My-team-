@@ -1,0 +1,23 @@
+.headr{
+    display:flex;
+    align-items: center;
+    }
+    .headr-nav{
+    margin-left: 8rem;
+    margin-right: auto;
+    }
+   
+       
+    .headr-list{
+    display: flex;
+        &__item{
+            margin-right: 4rem;
+        }
+    
+        &__link{
+            color: $color-white;
+            font-weight: 600;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+        }
+    }
